@@ -1,0 +1,91 @@
+<faculty_member> 
+
+   <faculty_firstname>William</faculty_firstname> 
+   
+   <faculty_lastname>Cook</faculty_lastname> 
+   
+   <office> 
+       <building>ACES</building> 
+       <room>5.244</room> 
+   </office> 
+   
+   <phone_number>5124719555</phone_number> 
+   
+   <email>wcook@cs.utexas.edu</email> 
+   
+   <website>http://www.cs.utexas.edu/~wcook/</website> 
+   
+   <faculty_type>Assistant Professor</faculty_type> 
+   
+   <research_areas> 
+       <research_area>Programming Languages</research_area> 
+       <research_area>Information Security</research_area>
+       <research_area>Application Architecture</research_area>
+   </research_areas> 
+   
+   <office_hours> 
+        <office_hour> 
+              <day>Tuesdat</day> 
+              <start>11:00 AM</start> 
+              <end>12:00 PM</end> 
+        </office_hour>  
+   </office_hours> 
+       
+   <degrees> 
+   		<degree> 
+              <degree_type>PhD</degree_type> 
+              <degree_name>Computer Science</degree_name> 
+              <institution>Brown University</institution> 
+              <degree_date>1989</degree_date> 
+        </degree>
+   </degrees>
+    
+   <conferences>
+   	    <conference> 
+             <conference_name>European Conference on Object-Oriented Programming</conference_name> 
+             <conference_date>2006-07</conference_date> 
+             <location>Nantes,France</location> 
+             <title>Peak Objects (Springer) Summing up the Past and Trying to Outline the Future</title> 
+        </conference>  
+   </conferences> 
+       
+   <journals> 
+        <journal> 
+             <journal_name>Journal of Software and Systems Modeling</journal_name> 
+             <article_title>Computation Orchestration: A Basis for Wide-Area Computing</article_title> 
+             <journal_date>2006-05</journal_date> 
+        </journal> 
+   </journals> 
+       
+   <graduate_students> 
+        <graduate_student> 
+              <student_firstname>Ben</student_firstname> 
+              <student_lastname>Wiedermann</student_lastname> 
+              <student_type>PhD</student_type> 
+              <dissertation></dissertation> 
+              <student_date>2010-06</student_date> 
+        </graduate_student> 
+   </graduate_students> 
+       
+   <classes> 
+       <class> 
+             <class_name>Programming Languages</class_name> 
+             <course_number>CS345H</course_number> 
+             <class_type>Undergraduate</class_type> 
+             <semester>Fall 2009</semester> 
+             <unique>54790</unique> 
+       </class> 
+   </classes> 
+       
+   <awards> 
+   	   <award> 
+             <award_name>CAREER: Integrating Programming Languages and Database</award_name> 
+             <award_type>Research Award</award_type> 
+             <award_date>2005</award_date> 
+       </award>
+   </awards> 
+       
+   <books> 
+   </books> 
+       
+</faculty_member>

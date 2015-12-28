@@ -1,0 +1,84 @@
+Primary Key: awardID
+
+<table border="1">
+<tr>
+<td>awardID</td>
+<td>Name</td>
+<td>Type</td>
+<td>Date</td>
+</tr>
+
+<tr>
+<td>NAS1</td>
+<td>North American Conference on Logic Programming</td>
+<td>Keynote Address</td>
+<td>1990</td>
+</tr>
+
+<tr>
+<td>TCA2</td>
+<td>Tenth Conference on Automated Deduction</td>
+<td>Keynote Address</td>
+<td>1990</td>
+</tr>
+
+<tr>
+<td>ASS3</td>
+<td>ACM Software System Award</td>
+<td>Research Award</td>
+<td>2005</td>
+</tr>
+
+<tr>
+<td>SKS4</td>
+<td>SIGCOMM 2004 keynote speech</td>
+<td>Keynote Address</td>
+<td>2004</td>
+</tr>
+
+<tr>
+<td>WWM5</td>
+<td>W. Wallace McDowell Award</td>
+<td>Research Award</td>
+<td>2004</td>
+</tr>
+
+<tr>
+<td>PPT6</td>
+<td>Publishers' Prize, Twelfth International Joint Conference</td>
+<td>Research Award</td>
+<td>1991</td>
+</tr>
+
+<tr>
+<td>TEA7</td>
+<td>Teaching Excellence Award from the College of Natural Sciences, UT Austin</td>
+<td>Teaching Award</td>
+<td>2000</td>
+</tr>
+
+<tr>
+<td>JMP8</td>
+<td>John McCarthy Prize for Program Verification</td>
+<td>Research Award</td>
+<td>1983</td>
+</tr>
+
+<tr>
+<td>HWP9</td>
+<td>Helen B. Warner Prize of the American Astronomical Society</td>
+<td>Research Award</td>
+<td>1981</td>
+</tr>
+
+<tr>
+<td>FJV10</td>
+<td>Francisco J. Varela Research Award, Mind and Life Institute</td>
+<td>Research Award</td>
+<td>2006</td>
+</tr>
+
+
+
+
+</table>

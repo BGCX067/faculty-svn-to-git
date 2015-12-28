@@ -1,0 +1,71 @@
+<faculty_member> 
+
+   <faculty_firstname>Mary</faculty_firstname> 
+   
+   <faculty_lastname>Eberlein</faculty_lastname> 
+   
+   <office> 
+       <building>PAI</building> 
+       <room>5.44</room> 
+   </office> 
+   
+   <phone_number>5124719722</phone_number> 
+   
+   <email>eberlein@cs.utexas.edu</email> 
+   
+   <website>http://www.cs.utexas.edu/~eberlein/</website> 
+   
+   <faculty_type>Lecturer</faculty_type> 
+   
+   <research_areas> 
+       <research_area>Genetic Algorithms</research_area> 
+   </research_areas> 
+   
+   <office_hours> 
+        <office_hour> 
+              <day>Monday</day> 
+              <start>12:30 PM</start> 
+              <end>1:30 PM</end> 
+        </office_hour>
+        <office_hour> 
+              <day>Tuesday</day> 
+              <start>11:30 AM</start> 
+              <end>12:30 PM</end> 
+        </office_hour>  
+   </office_hours> 
+       
+   <degrees> 
+   		<degree> 
+              <degree_type>PhD</degree_type> 
+              <degree_name>Computer Science</degree_name> 
+              <institution>University of Tennessee</institution> 
+              <degree_date>1996</degree_date> 
+        </degree>
+   </degrees>
+    
+   <conferences> 
+   </conferences> 
+       
+   <journals> 
+   </journals> 
+       
+   <graduate_students> 
+   </graduate_students> 
+       
+   <classes> 
+       <class> 
+             <class_name>Introduction to Computing</class_name> 
+             <course_number>CS305J</course_number> 
+             <class_type>Undergraduate</class_type> 
+             <semester>Fall 2009</semester> 
+             <unique>54540</unique> 
+       </class> 
+   </classes> 
+       
+   <awards> 
+   </awards> 
+       
+   <books> 
+   </books> 
+       
+</faculty_member>

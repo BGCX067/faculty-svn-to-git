@@ -1,0 +1,77 @@
+<faculty_member>
+	
+	<faculty_firstname>Dana</faculty_firstname>
+	<faculty_lastname>Ballard</faculty_lastname>
+	
+	<office>
+		<building>CSA</building>
+		<room>1.132</room>
+	</office>
+	
+	<phone_number>5124719750</phone_number>
+	
+	<email>dana@cs.utexas.edu</email>
+	
+	<website>http://cs.utexas.edu/~dana</website>
+	
+	<faculty_type>Professor</faculty_type>
+	
+	<research_areas>
+		<research_area>Distributed Computing</research_area>
+	</research_areas>
+	
+	<office_hours>
+		<office_hour>
+			<day>Friday</day>
+			<start>03:00 PM</start>
+			<end>04:00 PM</end>
+		</office_hour>
+	</office_hours>
+	
+	<degrees>
+		<degree>
+			<degree_type>PhD</degree_type>
+			<degree_name>Computer Science</degree_name>
+			<institution>University of California, Irvine</institution>
+			<degree_date>1974</degree_date>
+		</degree>
+	</degrees>
+	
+	<conferences>
+	</conferences>
+	
+	<journals>
+		<journal>
+			<journal_name>Visual Neuroscience</journal_name>
+			<article_title>Modeling the role of task in the control of gaze</article_title>
+			<journal_date>2009-06</journal_date>
+		</journal>
+	</journals>
+	
+	<graduate_students>
+		<graduate_student>
+			<student_firstname>Rahul</student_firstname>
+			<student_lastname>Iyer</student_lastname>
+			<student_type>PhD</student_type>
+			<dissertation></dissertation>
+			<student_date>2005-07</student_date>
+		</graduate_student>
+	</graduate_students>
+	
+	<classes>
+		<class>
+			<class_name>Machine Learning</class_name>
+			<course_number>CS391L</course_number>
+			<class_type>Graduate</class_type>
+			<semester>Fall 2009</semester>
+			<unique>54955</unique>
+		</class>
+	</classes>
+	
+	<awards>
+	</awards>
+	
+	<books>
+	</books>
+	
+</faculty_member>

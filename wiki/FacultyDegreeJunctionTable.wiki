@@ -1,0 +1,55 @@
+= Faculty and Degree Junction Table =
+Foreign Key : from Degree table - degreeID, from Faculty table - facultyID <br>
+Primary Key : facultyID|degreeID <br>
+
+<table border="1">
+<tr>
+<td>facultyID</td>
+<td>degreeID</td>
+</tr>
+<tr>
+<td>LA1</td>
+<td>PHDCU96</td>
+</tr>
+<tr>
+<td>DB2</td>
+<td>PHDUCI74</td>
+</tr>
+<tr>
+<td>DB3</td>
+<td>PHDUTOR80</td>
+</tr>
+<tr>
+<td>RSB4</td>
+<td>PHDUTA71</td>
+</tr>
+<tr>
+<td>DB5</td>
+<td>PHDUWM98</td>
+</tr>
+<tr>
+<td>FC6</td>
+<td>PHDUO81</td>
+</tr>
+<tr>
+<td>WC7</td>
+<td>PHDBU89</td>
+</tr>
+<tr>
+<td>ID8</td>
+<td>PHDUCB97</td>
+</tr>
+<tr>
+<td>ME9</td>
+<td>PHDUTE96</td>
+</tr>
+<tr>
+<td>DF10</td>
+<td>PHDUTD80</td>
+</tr>
+
+</table>
+
+Links to:
+
+DegreeTable

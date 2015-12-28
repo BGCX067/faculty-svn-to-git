@@ -1,0 +1,48 @@
+Primary Key: conferenceID
+<br>
+
+<table border="1">
+<tr>
+<td>conferenceID</td>
+<td>cName</td>
+</tr>
+<tr>
+<td>EC1</td>
+<td>European Conference on Object-Oriented Programming</td>
+</tr>
+<tr>
+<td>AS2</td>
+<td>ACM SIGCOMM 2006</td>
+</tr>
+<tr>
+<td>AS3</td>
+<td>ACM SIGCOMM 2004</td>
+</tr>
+<tr>
+<td>IL4</td>
+<td>International Lisp Conference 2005</td>
+</tr>
+<tr>
+<td>CH5</td>
+<td>CHARME 03</td>
+</tr>
+<tr>
+<td>IS6</td>
+<td>39th International Symposium on Microarchitecture</td>
+</tr>
+<tr>
+<td>AC7</td>
+<td>7th ACM Workshop on Languages, Compilers, and Runtime Support for Scalable Systems</td>
+</tr>
+<tr>
+<td>JE8</td>
+<td>Joint EUROGRAPHICS - IEEE TCVG Symposium on Visualization</td>
+</tr>
+<tr>
+<td>IE9</td>
+<td>10th IEEE Visualization 1999 Conference</td>
+</tr>
+<tr>
+<td>SO10</td>
+<td>8th Symposium on Operating System Design and Implementation (OSDI '08)</td>
+</tr>

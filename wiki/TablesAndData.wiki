@@ -1,0 +1,1082 @@
+=Faculty= 
+
+Primary Key: facultyID
+
+<table border="1">
+<tr>
+<td>facultyID</td>
+<td>firstName</td>
+<td>lastName</td>
+<td>e-mail</td>
+<td>Website</td>
+<td> Type</td>
+</tr>
+<tr>
+<td>LA1</td>
+<td>Lorenzo</td>
+<td>Alvisi</td>
+<td>lorenzo@cs.utexas.edu</td>
+<td>http://www.cs.utexas.edu/~lorenzo/</td>
+<td>Professor</td>
+</tr>
+<tr>
+<td>DB2</td>
+<td>Dana</td>
+<td>Ballard</td>
+<td>dana@cs.utexas.edu</td>
+<td>http://www.cs.utexas.edu/~dana/</td>
+<td>Professor</td>
+</tr>
+<tr>
+<td>DB3</td>
+<td>Dan</td>
+<td>Batory</td>
+<td>dsb@cs.utexas.edu</td>
+<td>http://www.cs.utexas.edu/~dsb/</td>
+<td> Professor</td>
+</tr>
+<tr>
+<td>RSB4</td>
+<td>Robert</td>
+<td>Boyer</td>
+<td>boyer@cs.utexas.edu</td>
+<td>http://www.cs.utexas.edu/~boyer/</td>
+<td> Professor Emeritus</td>
+</tr>
+<tr>
+<td>DB5</td>
+<td>Doug</td>
+<td>Burger</td>
+<td>dburger@cs.utexas.edu</td>
+<td>http://www.cs.utexas.edu/~dburger/</td>
+<td> Professor</td>
+</tr>
+<tr>
+<td>FC6</td>
+<td>Fred</td>
+<td>Chang</td>
+<td>chang@cs.utexas.edu</td>
+<td>http://www.cs.utexas.edu/~chang/</td>
+<td> Research Professor</td>
+</tr>
+<tr>
+<td>WC7</td>
+<td>William</td>
+<td>Cook</td>
+<td>wcook@cs.utexas.edu</td>
+<td>http://www.cs.utexas.edu/~wcook/</td>
+<td>Assistant Professor</td>
+</tr>
+<tr>
+<td>ID8</td>
+<td>Inderjit</td>
+<td>Dhillon</td>
+<td>dhillon@cs.utexas.edu</td>
+<td>http://www.cs.utexas.edu/~inderjit/</td>
+<td>Professor</td>
+</tr>
+<tr>
+<td>ME9</td>
+<td>Mary</td>
+<td>Eberlein</td>
+<td>eberlein@cs.utexas.edu</td>
+<td>http://www.cs.utexas.edu/~eberlein/</td>
+<td>Lecturer</td>
+</tr>
+<tr>
+<td>DF10</td>
+<td>Donald</td>
+<td>Fussell</td>
+<td>fussell@cs.utexas.edu</td>
+<td>http://www.cs.utexas.edu/~fussell/</td>
+
+<td>Professor</td>
+</tr>
+</table>
+<br><br>
+= Degrees =
+
+Primary Key : degreeID
+
+<table border="1">
+<tr>
+<td>degreeID</td>
+<td>type</td>
+<td>institution</td>
+<td>date</td>
+</tr>
+<tr>
+<td>PHDCU96</td>
+<td>Ph.D.</td>
+<td>Cornell University </td>
+<td>1996</td>
+</tr>
+<tr>
+<td>PHDUCI74</td>
+<td>Ph.D.</td>
+<td>University of California, Irvine</td>
+<td>1974</td>
+</tr>
+<tr>
+<td>PHDUTOR80</td>
+<td>Ph.D. </td>
+<td>University of Toronto </td>
+<td>1980</td>
+</tr>
+<tr>
+<td>PHDUTA71</td>
+<td>Ph.D. </td>
+<td>The University of Texas at Austin</td>
+<td>1971</td>
+</tr>
+<tr>
+<td>PHDUWM98</td>
+<td>Ph.D.</td>
+<td>University of Wisconsin at Madison </td>
+<td>1998</td>
+</tr>
+<tr>
+<td>PHDUO81</td>
+<td>Ph.D.</td>
+<td>University of Oregon </td>
+<td>1981</td>
+</tr>
+<tr>
+<td>PHDBU89</td>
+<td>Ph.D.</td>
+<td>Brown University</td>
+<td>1989</td>
+</tr>
+<tr>
+<td>PHDUCB97</td>
+<td>Ph.D.</td>
+<td>University of California Berkley</td>
+<td>1997</td>
+</tr>
+<tr>
+<td>PHDUTE96</td>
+<td>Ph.D.</td>
+<td>University of Tennessee</td>
+<td>1996</td>
+</tr>
+<tr>
+<td>PHDUTD80</td>
+<td>Ph.D.</td>
+<td>The University of Texas at Dallas</td>
+<td>1980</td>
+</tr>
+</table>
+<br><br>
+
+= Faculty and Degree Junction Table =
+
+Source Foreign Key : facultyID <br>
+Foreign Key : degreeID <br>
+Primary Key : facultyID|degreeID <br>
+
+<table border="1">
+<tr>
+<td>facultyID</td>
+<td>degreeID</td>
+</tr>
+<tr>
+<td>LA1</td>
+<td>PHDCU96</td>
+</tr>
+<tr>
+<td>DB2</td>
+<td>PHDUCI74</td>
+</tr>
+<tr>
+<td>DB3</td>
+<td>PHDUTOR80</td>
+</tr>
+<tr>
+<td>RSB4</td>
+<td>PHDUTA71</td>
+</tr>
+<tr>
+<td>DB5</td>
+<td>PHDUWM98</td>
+</tr>
+<tr>
+<td>FC6</td>
+<td>PHDUO81</td>
+</tr>
+<tr>
+<td>WC7</td>
+<td>PHDBU89</td>
+</tr>
+<tr>
+<td>ID8</td>
+<td>PHDUCB97</td>
+</tr>
+<tr>
+<td>ME9</td>
+<td>PHDUTE96</td>
+</tr>
+<tr>
+<td>DF10</td>
+<td>PHDUTD80</td>
+</tr>
+
+</table>
+<br><br>
+= OfficeHour Table=
+Primary Key: Day | Time | Building | RoomNum <br/>
+Foreign Key: FacultyID | Building | RoomNum
+
+<table border="1">
+
+<tr>
+<td>FacultyID</td>
+<td>Day</td>
+<td>Time</td>
+<td>Building</td>
+<td>Room Number</td>
+</tr>
+
+<tr>
+<td>MD1</td>
+<td>Tuesday</td>
+<td>2:30 PM - 3:30 PM</td>
+<td>ACES</td>
+<td>6.248</td>
+</tr>
+
+<tr>
+<td>ID2</td>
+<td>Tuesday</td>
+<td>11:00 AM - 12:00 PM</td>
+<td>ACES</td>
+<td>2.332</td>
+</tr>
+
+<tr>
+<td>KG3</td>
+<td>Wednesday</td>
+<td>5:00 PM - 6:00 PM</td>
+<td>CSA</td>
+<td>114</td>
+</tr>
+
+<tr>
+<td>SK4</td>
+<td>Tuesday</td>
+<td>1:00 PM - 2:00 PM</td>
+<td>ACES</td>
+<td>3.434</td>
+</tr>
+
+<tr>
+<td>AK5</td>
+<td>Monday</td>
+<td>2:00 PM - 3:30 PM</td>
+<td>TAY</td>
+<td>3.148</td>
+</tr>
+
+<tr>
+<td>SL6</td>
+<td>Tuesday<br/>Thursday</td>
+<td>5:00 PM - 6:00 PM</td>
+<td>TAY</td>
+<td>3.112</td>
+</tr>
+
+<tr>
+<td>CL7</td>
+<td>Wednesday</td>
+<td>3:00 PM - 4:00 PM</td>
+<td>ACES</td>
+<td>3.424</td>
+</tr>
+
+<tr>
+<td>DM8</td>
+<td>Monday</td>
+<td>12:00 PM - 1:00 PM</td>
+<td>RAS</td>
+<td>123</td>
+</tr>
+
+<tr>
+<td>RM9</td>
+<td>Monday<br/>Wednesday</td>
+<td>2:00 PM - 3:00 PM</td>
+<td>CSA</td>
+<td>1.102</td>
+</tr>
+
+<tr>
+<td>GP10</td>
+<td>Tuesday<br/>Wednesday</td>
+<td>5:00 PM - 6:00 PM<br/>3:00 - 4:00 PM</td>
+<td>TAY</td>
+<td>3.132</td>
+</tr>
+
+</table>
+<br><br>
+=FacultyOfficeHourJoinTable=
+
+Primary Key: Day | Time | Building | RoomNum | FacultyID <br>
+Foreign Key: from OfficeHours: Day | Time | Building | RoomNum, from Faculty:FacultyID
+
+<table border="1">
+
+<tr>
+<td>FacultyID</td>
+<td>Day</td>
+<td>Time</td>
+<td>Building</td>
+<td>Room Number</td>
+</tr>
+
+<tr>
+<td>MD1</td>
+<td>Tuesday</td>
+<td>2:30 PM - 3:30 PM</td>
+<td>ACES</td>
+<td>6.248</td>
+</tr>
+
+<tr>
+<td>ID2</td>
+<td>Tuesday</td>
+<td>11:00 AM - 12:00 PM</td>
+<td>ACES</td>
+<td>2.332</td>
+</tr>
+
+<tr>
+<td>KG3</td>
+<td>Wednesday</td>
+<td>5:00 PM - 6:00 PM</td>
+<td>CSA</td>
+<td>114</td>
+</tr>
+
+<tr>
+<td>SK4</td>
+<td>Tuesday</td>
+<td>1:00 PM - 2:00 PM</td>
+<td>ACES</td>
+<td>3.434</td>
+</tr>
+
+<tr>
+<td>AK5</td>
+<td>Monday</td>
+<td>2:00 PM - 3:30 PM</td>
+<td>TAY</td>
+<td>3.148</td>
+</tr>
+
+<tr>
+<td>SL6</td>
+<td>Tuesday<br/>Thursday</td>
+<td>5:00 PM - 6:00 PM</td>
+<td>TAY</td>
+<td>3.112</td>
+</tr>
+
+<tr>
+<td>CL7</td>
+<td>Wednesday</td>
+<td>3:00 PM - 4:00 PM</td>
+<td>ACES</td>
+<td>3.424</td>
+</tr>
+
+<tr>
+<td>DM8</td>
+<td>Monday</td>
+<td>12:00 PM - 1:00 PM</td>
+<td>RAS</td>
+<td>123</td>
+</tr>
+
+<tr>
+<td>RM9</td>
+<td>Monday<br/>Wednesday</td>
+<td>2:00 PM - 3:00 PM</td>
+<td>CSA</td>
+<td>1.102</td>
+</tr>
+
+<tr>
+<td>GP10</td>
+<td>Tuesday<br/>Wednesday</td>
+<td>5:00 PM - 6:00 PM<br/>3:00 - 4:00 PM</td>
+<td>TAY</td>
+<td>3.132</td>
+</tr>
+
+</table>
+<br><br>
+=Classes= 
+
+Primary Key: CourseNum|Semester
+Foreign Key: facultyID
+
+<table border="1">
+<tr>
+<td>facultyID</td>
+<td>name</td>
+<td>CourseNum</td>
+<td>Type</td>
+<td>Semester</td>
+</tr>
+<tr>
+<td>RG1</td>
+<td>CS 320N Practical Linear Algebra 1</td>
+<td>54730</td>
+<td>Undergraduate</td>
+<td>Fall 2009</td>
+</tr>
+<tr>
+<td>RM1</td>
+<td>CS 388 Natural language processing</td>
+<td>54935</td>
+<td>Graduate</td>
+<td>Fall 2009</td>
+</tr>
+<tr>
+<td>KM1</td>
+<td>CS 380c Compilers </td>
+<td>54900</td>
+<td>Graduate</td>
+<td>Fall 2009</td>
+</tr>
+<tr>
+<td>WH1</td>
+<td>CS 352 Computer Systems Architecture</td>
+<td>54805</td>
+<td>Undergraduate</td>
+<td>Fall 2009</td>
+</tr>
+<tr>
+<td>AG1</td>
+<td>CS 346 Cryptography</td>
+<td>54795</td>
+<td>Undergraduate</td>
+<td>Fall 2009</td>
+</tr>
+<tr>
+<td>CB1</td>
+<td>CS 354 Computer Graphics</td>
+<td>54815</td>
+<td>Undergraduate</td>
+<td>Fall 2009</td>
+</tr>
+<tr>
+<td>ER1</td>
+<td>CS 341 Automata theory</td>
+<td>54780</td>
+<td>Undergraduate</td>
+<td>Fall 2009</td>
+</tr>
+<tr>
+<td>MM1</td>
+<td>CS 336 Analysis of programs</td>
+<td>54750</td>
+<td>Undergraduate</td>
+<td>Fall 2009</td>
+</tr>
+<tr>
+<td>JM1</td>
+<td>CS 337 Theory in programming practice</td>
+<td>54765</td>
+<td>Undergraduate</td>
+<td>Fall 2009</td>
+</tr>
+<tr>
+<td>JM1</td>
+<td>CS 337 Theory in programming practice</td>
+<td>54760</td>
+<td>Undergraduate</td>
+<td>Fall 2009</td>
+</tr>
+</table>
+
+<br><br>
+
+=ClassType= 
+This is an enumeration table for the Type attribute in the Class Table.
+
+Primary Key: Type
+
+<table border="1">
+<tr>
+<td>Type</td>
+</tr>
+<tr>
+<td>Undergraduate</td>
+</tr>
+<tr>
+<td>Graduate</td>
+</tr>
+</table>
+<br><br>
+
+= Book =
+
+Primary Key: Name|Date
+
+
+||Name||Date||
+||Principles of Parallel Programming||2008||
+||Computational Maps in the Visual Cortex||2005||
+||Numerical Recipes: The Art of Scientific Computing Third Edition||2007||
+||Automata, Computability and Complexity: Theory and Applications||2007||
+||Intelligent Autonomous Robotics: A Robot Soccer Case Study, Synthesis Lectures on Artificial Intelligence and Machine Learning||2007||
+||Autonomous Bidding Agents: Strategies and Lessons from the Trading Agent Competition||2007||
+||Numerical Mathematics and Computing, Edition 6.||2008||
+||Linear Algebra: Theory and applications||2009||
+||Numerical Analysis: Mathematics of Scientific Computing, Third Edition||2002||
+
+<br><br>
+
+=BookCoAuthor=
+
+Primary Key: AuthorName|Name|Date <br>
+Foregin Key: Name|Date
+
+
+||AuthorName||Name||Date||
+||James A. Bednar||Computational Maps in the Visual Cortex||2005||
+||Yoonsuck Choe||Computational Maps in the Visual Cortex||2005||
+||Joseph Sirosh||Computational Maps in the Visual Cortex||2005||
+||Saul A. Teukolsky||Numerical Recipes: The Art of Scientific Computing Third Edition||2007||
+||William T. Vetterling||Numerical Recipes: The Art of Scientific Computing Third Edition||2007||
+||Brian P. Flannery||Numerical Recipes: The Art of Scientific Computing Third Edition||2007||
+
+<br><br>
+=FacultyBookJoinTable=
+
+Primary Key: Name|Date
+
+
+||facultyID||Name||Date||
+||CL1||Principles of Parallel Programming||2008||
+||RM1||Computational Maps in the Visual Cortex||2005||
+||WP1||Numerical Recipes: The Art of Scientific Computing Third Edition||2007||
+||ER1||Automata, Computability and Complexity: Theory and Applications||2007||
+||PS1||Intelligent Autonomous Robotics: A Robot Soccer Case Study, Synthesis Lectures on Artificial Intelligence and Machine Learning||2007||
+||RG1||Autonomous Bidding Agents: Strategies and Lessons from the Trading Agent Competition||2007||
+||DK1||Numerical Mathematics and Computing, Edition 6.||2008||
+||DK1||Linear Algebra: Theory and applications||2009||
+||DK1||Numerical Analysis: Mathematics of Scientific Computing, Third Edition||2002||
+
+<br><br>
+=AwardTable=
+
+Foreign Key: FacultyId
+Primary Key: Name | Date
+
+<table border="1">
+<tr>
+<td>Name</td>
+<td>Type</td>
+<td>Date</td>
+</tr>
+
+<tr>
+<td>North American Conference on Logic Programming</td>
+<td>Keynote Address</td>
+<td>1990</td>
+</tr>
+
+<tr>
+<td>Tenth Conference on Automated Deduction</td>
+<td>Keynote Address</td>
+<td>1990</td>
+</tr>
+
+<tr>
+<td>ACM Software System Award</td>
+<td>Research Award</td>
+<td>2005</td>
+</tr>
+
+<tr>
+<td>SIGCOMM 2004 keynote speech</td>
+<td>Keynote Address</td>
+<td>2004</td>
+</tr>
+
+<tr>
+<td>W. Wallace McDowell Award</td>
+<td>Research Award</td>
+<td>2004</td>
+</tr>
+
+<tr>
+<td>Publishers' Prize, Twelfth International Joint Conference</td>
+<td>Research Award</td>
+<td>1991</td>
+</tr>
+
+<tr>
+<td>Teaching Excellence Award from the College of Natural Sciences, UT Austin</td>
+<td>Teaching Award</td>
+<td>2000</td>
+</tr>
+
+<tr>
+<td>John McCarthy Prize for Program Verification</td>
+<td>Research Award</td>
+<td>1983</td>
+</tr>
+
+<tr>
+<td>Helen B. Warner Prize of the American Astronomical Society</td>
+<td>Research Award</td>
+<td>1981</td>
+</tr>
+
+<tr>
+<td>Francisco J. Varela Research Award, Mind and Life Institute</td>
+<td>Research Award</td>
+<td>2006</td>
+</tr>
+
+</table>
+<br><br>
+=FacultyAwardsJunctionTable=
+
+Foreign Key: from Faculty: FacultyId, from Awards: Name | Date <br>
+Primary Key: Name | Date | FacultyId
+
+<table border="1">
+<tr>
+<td>facultyId</td>
+<td>Name</td>
+<td>Date</td>
+</tr>
+
+<tr>
+<td>RB1</td>
+<td>North American Conference on Logic Programming</td>
+<td>1990</td>
+</tr>
+
+<tr>
+<td>RB1</td>
+<td>Tenth Conference on Automated Deduction</td>
+<td>1990</td>
+</tr>
+
+<tr>
+<td>MK2</td>
+<td>ACM Software System Award</td>
+<td>2005</td>
+</tr>
+
+<tr>
+<td>SL3</td>
+<td>SIGCOMM 2004 keynote speech</td>
+<td>2004</td>
+</tr>
+
+<tr>
+<td>SL3</td>
+<td>W. Wallace McDowell Award</td>
+<td>2004</td>
+</tr>
+
+<tr>
+<td>VL4</td>
+<td>Publishers' Prize, Twelfth International Joint Conference</td>
+<td>1991</td>
+</tr>
+
+<tr>
+<td>VL4</td>
+<td>Teaching Excellence Award from the College of Natural Sciences, UT Austin</td>
+<td>2000</td>
+</tr>
+
+<tr>
+<td>JM5</td>
+<td>John McCarthy Prize for Program Verification</td>
+<td>1983</td>
+</tr>
+
+<tr>
+<td>WP6</td>
+<td>Helen B. Warner Prize of the American Astronomical Society</td>
+<td>1981</td>
+</tr>
+
+<tr>
+<td>RM7</td>
+<td>Francisco J. Varela Research Award, Mind and Life Institute</td>
+<td>2006</td>
+</tr>
+</table>
+<br><br>
+=ConferenceTable=
+
+Primary Key: cName, cDate, presTitle
+<br>
+Foreign Key: facultyID
+
+<table border="1">
+<tr>
+<td>cName</td>
+<td>cDate</td>
+<td>cLocation</td>
+<td>presTitle</td>
+</tr>
+<tr>
+<td>European Conference on Object-Oriented Programming</td>
+<td>July 12 2006</td>
+<td>Nantes, France</td>
+<td>Peak Objects (Springer) Summing up the Past and Trying to Outline the Future</td>
+</tr>
+<tr>
+<td>ACM SIGCOMM 2006</td>
+<td>September 2006</td>
+<td>Pisa, Italy</td>
+<td>DDoS Defense by Offense</td>
+</tr>
+<tr>
+<td>ACM SIGCOMM 2004</td>
+<td>September 2004</td>
+<td>Portland, OR</td>
+<td>A Layered Naming Architecture for the Internet</td>
+</tr>
+<tr>
+<td>International Lisp Conference 2005</td>
+<td> June 21, 2005</td>
+<td>Stanford, CA</td>
+<td>ACL2: A Program Verifier for Applicative Common Lisp</td>
+</tr>
+<tr>
+<td>CHARME 03</td>
+<td>October 24 2003</td>
+<td>L'Aquila, Italy</td>
+<td>Inductive Assertions and Operational Semantics</td>
+</tr>
+<tr>
+<td>39th International Symposium on Microarchitecture</td>
+<td>December 12 2006</td>
+<td>Florida USA</td>
+<td>Memory Prefetching Using Adaptive Stream Detection</td>
+</tr>
+<tr>
+<td>7th ACM Workshop on Languages, Compilers, and Runtime Support for Scalable Systems</td>
+<td>October 22 2004</td>
+<td>Houston USA</td>
+<td>Compiler-Generated Staggered Checkpointing</td>
+</tr>
+<tr>
+<td>Joint EUROGRAPHICS - IEEE TCVG Symposium on Visualization</td>
+<td>May 26-28, 1999</td>
+<td>Vienna, Austria</td>
+<td>Parallel Ray Casting of Visible Human on Distributed Memory Architectures</td>
+</tr>
+<tr>>
+<td>10th IEEE Visualization 1999 Conference</td>
+<td>October 24, 1999</td>
+<td>San Francisco, CA</td>
+<td>Progressive Compression and Transmission of Arbitrary Triangular Meshe</td>
+</tr>
+<tr>
+<td>8th Symposium on Operating System Design and Implementation (OSDI '08)</td>
+<td>December 2008</td>
+<td>San Diego, CA</td>
+<td>FlightPath?: Obedience vs. Choice in Cooperative Services</td>
+</tr>
+</table>
+<br><br>
+=FacultyConferenceJoinTable=
+
+Primary Key: facultyID, cName, cDate, presTitle
+<br>
+Foreign Keys: from Faculty Table: facultyID, from Conference Table:cName, cDate, presTitle
+
+<table border="1">
+<tr>
+<td>facultyID</td>
+<td>cName</td>
+<td>cDate</td>
+<td>presTitle</td>
+</tr>
+<tr>
+<td>WC7</td>
+<td>European Conference on Object-Oriented Programming</td>
+<td>July 12 2006</td>
+<td>Peak Objects (Springer) Summing up the Past and Trying to Outline the Future</td>
+</tr>
+<tr>
+<td> MW11 </td>
+<td>ACM SIGCOMM 2006</td>
+<td>September 2006</td>
+<td>DDoS Defense by Offense</td>
+</tr>
+<tr>
+<td> MW11 </td>
+<td>ACM SIGCOMM 2004</td>
+<td>September 2004</td>
+<td>A Layered Naming Architecture for the Internet</td>
+</tr>
+<tr>
+<td> JM12 </td>
+<td>International Lisp Conference 2005</td>
+<td> June 21, 2005</td>
+<td>ACL2: A Program Verifier for Applicative Common Lisp</td>
+</tr>
+<tr>
+<td> JM12 </td>
+<td>CHARME 03</td>
+<td>October 24 2003</td>
+<td>Inductive Assertions and Operational Semantics</td>
+</tr>
+<tr>
+<td> CL13 </td>
+<td>39th International Symposium on Microarchitecture</td>
+<td>December 12 2006</td>
+<td>Memory Prefetching Using Adaptive Stream Detection</td>
+</tr>
+<tr>
+<td> CL13 </td>
+<td>7th ACM Workshop on Languages, Compilers, and Runtime Support for Scalable Systems</td>
+<td>October 22 2004</td>
+<td>Compiler-Generated Staggered Checkpointing</td>
+</tr>
+<tr>
+<td> CB14 </td>
+<td>Joint EUROGRAPHICS - IEEE TCVG Symposium on Visualization</td>
+<td>May 26-28, 1999</td>
+<td>Parallel Ray Casting of Visible Human on Distributed Memory Architectures</td>
+</tr>
+<tr>
+<td> CB14 </td>
+<td>10th IEEE Visualization 1999 Conference</td>
+<td>October 24, 1999</td>
+<td>Progressive Compression and Transmission of Arbitrary Triangular Meshe</td>
+</tr>
+<tr>
+<td> LA1 </td>
+<td>8th Symposium on Operating System Design and Implementation (OSDI '08)</td>
+<td>December 2008</td>
+<td>FlightPath?: Obedience vs. Choice in Cooperative Services</td>
+</tr>
+</table>
+<br><br>
+==Journal==
+Primary Key: Name|Article|Date <br>
+
+||Article||Name||Date||
+||Orthogonal Eigenvectors and Relative Gaps||SIAM Journal on Matrix Analysis and Applications||2004||
+||Graph NonIsomorphism has Subexponential Size Proofs unless the Polynomial-Time Hierarchy Collapses||SIAM Journal on Computing||2002||
+||Automatic Parameterization of Rational Curves and Surfaces III: Algebraic Plane Curves||Computer Aided Geometric Design||1988||
+||Cryptographic Hardness for Learning Intersections of Halfspaces||Journal of Computer and System Sciences||2006||
+||Unconditional Lower Bounds for Learning Intersections of Halfspaces||Machine Learning Journal||2006||
+||Learnability and Automatizability||Journal of Computer and System Sciences||2004||
+||Geometric Optimization and the Polynomial Hierarchy||Theoretical Computer Science||1987||
+||Proving Geometric Algorithm Non-Solvability: An Application of Factoring Polynomials||Journal of Symbolic Computation||1986||
+||The Capsid Proteins of a Large, Icosahedral dsDNA Virus||Journal of Structural Biology||2008||
+||Surface Reconstruction From Non-parallel Curve Networks||Computer Graphics Forum||2008|| 
+<br><br>
+=JournalCoAuthorTable=
+Primary Key: AuthorName|Article <br>
+Foreign Key: Article|Name|Date
+
+||AuthorName||Article||Name||Date||
+||Beresford Parlett||Orthogonal Eigenvectors and Relative Gaps||SIAM Journal on Matrix Analysis and Applications||2004||
+||Dieter van Melkebeek||Graph NonIsomorphism has Subexponential Size Proofs unless the Polynomial-Time Hierarchy Collapses||SIAM Journal on Computing||2002||
+||S. Abhyankar||Automatic Parameterization of Rational Curves and Surfaces III: Algebraic Plane Curves||Computer Aided Geometric Design||1988||
+||Alexander A. Sherstov||Cryptographic Hardness for Learning Intersections of Halfspaces||Journal of Computer and System Sciences||2006||
+||Alexander A. Sherstov||Unconditional Lower Bounds for Learning Intersections of Halfspaces||Machine Learning Journal||2006||
+||Misha Alekhnovich||Learnability and Automatizability||Journal of Computer and System Sciences||2004||
+||Mark Braverman||Learnability and Automatizability||Journal of Computer and System Sciences||2004||
+||Vitaly Feldman||Learnability and Automatizability||Journal of Computer and System Sciences||2004||
+||Toniann Pitassi||Learnability and Automatizability||Journal of Computer and System Sciences||2004||
+||Z. Yu||The Capsid Proteins of a Large, Icosahedral dsDNA Virus||Journal of Structural Biology||2008||
+||M. Hoshijima||The Capsid Proteins of a Large, Icosahedral dsDNA Virus||Journal of Structural Biology||2008||
+||M. Holst||The Capsid Proteins of a Large, Icosahedral dsDNA Virus||Journal of Structural Biology||2008||
+||T. Hayashi||The Capsid Proteins of a Large, Icosahedral dsDNA Virus||Journal of Structural Biology||2008||
+||M. Ellisman||The Capsid Proteins of a Large, Icosahedral dsDNA Virus||Journal of Structural Biology||2008||
+||J.A. McCammon||The Capsid Proteins of a Large, Icosahedral dsDNA Virus||Journal of Structural Biology||2008||
+||Liu||Surface Reconstruction From Non-parallel Curve Networks||Computer Graphics Forum||2008||
+||J.O. Deasy||Surface Reconstruction From Non-parallel Curve Networks||Computer Graphics Forum||2008||
+||D.A. Low||Surface Reconstruction From Non-parallel Curve Networks||Computer Graphics Forum||2008||
+||T. Ju||Surface Reconstruction From Non-parallel Curve Networks||Computer Graphics Forum||2008||
+<br><br>
+=FacultyJournalJoinTable=
+Primary Key: facultyID|Name|Article|Date
+Foreign Key: facultyID (here their name is just used until actual id is chosen)
+
+||facultyID||Name||Article||Date||
+||Inderjit Dhillon||Orthogonal Eigenvectors and Relative Gaps||SIAM Journal on Matrix Analysis and Applications||2004||
+||Adam R. Klivans||Graph NonIsomorphism has Subexponential Size Proofs unless the Polynomial-Time Hierarchy Collapses||SIAM Journal on Computing||2002||
+||Chandrajit Bajaj||Automatic Parameterization of Rational Curves and Surfaces III: Algebraic Plane Curves||Computer Aided Geometric Design||1988||
+||Adam Klivans||Cryptographic Hardness for Learning Intersections of Halfspaces||Journal of Computer and System Sciences||2006||
+||Adam Klivans||Unconditional Lower Bounds for Learning Intersections of Halfspaces||Machine Learning Journal||2006||
+||Adam Klivans||Learnability and Automatizability||Journal of Computer and System Sciences||2004||
+||Chandrajit Bajaj||Geometric Optimization and the Polynomial Hierarchy||Theoretical Computer Science||1987||
+||Chandrajit Bajaj||Proving Geometric Algorithm Non-Solvability: An Application of Factoring Polynomials||Journal of Symbolic Computation||1986||
+||Chandrajit Bajaj||The Capsid Proteins of a Large, Icosahedral dsDNA Virus||Journal of Structural Biology||2008||
+||Chandrajit Bajaj||Surface Reconstruction From Non-parallel Curve Networks||Computer Graphics Forum||2008|| 
+
+<br><br>
+=GradStudents= 
+
+Primary Key: studentID
+Foreign Key: facultyID
+
+<table border="1">
+<tr>
+<td>facultyID</td>
+<td>studentID</td>
+<td>firstName</td>
+<td>lastName</td>
+<td>Type</td>
+<td>Date</td>
+<td>Theses/Dissertation</td>
+</tr>
+<tr>
+<td>LQ1</td>
+<td>MH1</td>
+<td>Mi</td>
+<td>Han</td>
+<td>PhD</td>
+<td>fall 2005</td>
+</tr>
+<tr>
+<td>PR1</td>
+<td>SJ1</td>
+<td>Suyog</td>
+<td>Jain</td>
+<td>Masters</td>
+<td>Fall 2009</td>
+</tr>
+<tr>
+<td>fid</td>
+<td>VJ1</td>
+<td>Varun</td>
+<td>Jain</td>
+<td>Masters</td>
+<td>Fall 2009</td>
+</tr>
+<tr>
+<td>AG1</td>
+<td>KJ1</td>
+<td>Keith</td>
+<td>Jang</td>
+<td>PhD</td>
+<td>Fall 2004</td>
+</tr>
+<tr>
+<td>fid</td>
+<td>AK1</td>
+<td>Ann</td>
+<td>Kilzer</td>
+<td>PhD</td>
+<td>Fall 2009</td>
+</tr>
+<tr>
+<td>KG1</td>
+<td>AK2</td>
+<td>Adriana</td>
+<td>Kovashka</td>
+<td>PhD</td>
+<td>Fall 2009</td>
+</tr>
+<tr>
+<td>DG1</td>
+<td>XL1</td>
+<td>Xin</td>
+<td>Li</td>
+<td>PhD</td>
+<td>Fall 2005</td>
+</tr>
+<tr>
+<td>fid</td>
+<td>SP1</td>
+<td>Swati</td>
+<td>Pallapalli</td>
+<td>Masters</td>
+<td>Fall 2008</td>
+<td>Localization in Wireless Sensor Networks</td>
+</tr>
+<tr>
+<td>fid</td>
+<td>SR1</td>
+<td>Srivatsan</td>
+<td>Ramanujam</td>
+<td>Masters</td>
+<td>Fall 2007</td>
+</tr>
+<tr>
+<td>RM1</td>
+<td>JS1</td>
+<td>Jacob</td>
+<td>Schrum</td>
+<td>PhD</td>
+<td>Fall 2006</td>
+</tr>
+</table>
+<br><br>
+=GradStudentType= 
+
+This is an enumeration table for the Type attribute in the GradStudent Table.<br>
+Primary Key: Type
+
+<table border="1">
+<tr>
+<td>Type</td>
+</tr>
+<tr>
+<td>Masters</td>
+</tr>
+<tr>
+<td>PhD</td>
+</tr>
+</table>
+
+<br><br>
+=Offices=
+
+Source Foreign Key: facultyID <br>
+Primary Key: facultyID | building | roomNumber
+
+<table border="1">
+
+<tr>
+<td>facultyID</td>
+<td>building</td>
+<td>roomNumber</td>
+</tr>
+
+<tr>
+<td>LA1</td>
+<td>ACES</td>
+<td>6.244</td>
+</tr>
+<tr>
+<td>DB3</td>
+<td>ACES</td>
+<td>5.252</td>
+</tr>
+<tr>
+<td>DB5</td>
+<td>ACES</td>
+<td>3.432</td>
+</tr>
+<tr>
+<td>WC7</td>
+<td>ACES</td>
+<td>5.244</td>
+</tr>
+<tr>
+<td>ID8</td>
+<td>ACES</td>
+<td>2.332</td>
+</tr>
+
+</table>

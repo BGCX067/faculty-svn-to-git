@@ -1,0 +1,33 @@
+Since there is no implementation yet regarding database usage, the export function is based on our Faculty class and its accessors (get_Methods).
+
+Out export function grabs all the data gathered so far and outputs it to a file, called faculty_member_out.xml, with the correct XML tags attached to the data.
+
+-----------------------------------------------------------------------------------------
+*Example:*
+
+#classes
+	file.write(" < classes>\n")
+	classes = faculty.getClasses()
+	itr = iter(classes)
+	while True:
+		try :
+			p = itr.next()
+			file.write("\t<class>\n")
+			file.write("\t\t<class_name>")
+			file.write(p.getName())
+			file.write("</class_name>\n")
+			file.write("\t\t<course_number>")
+			file.write(p.getNumber())
+			file.write("</course_number>\n")
+			file.write("\t\t<class_type>")
+			file.write(p.getType())
+			file.write("</class_type>\n")
+			file.write("\t\t<semester>")
+			file.write(p.getSemester())
+			file.write("</semester>\n")
+			file.write("\t\t<unique>")
+			file.write(p.getUniqueNumber())
+			file.write("</unique>\n")
+			file.write("\t</class>\n")
+		except StopIteration:
+			break

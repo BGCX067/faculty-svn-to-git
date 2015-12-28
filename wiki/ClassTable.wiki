@@ -1,0 +1,66 @@
+=Classes= 
+
+Primary Key: classID
+
+<table border="1">
+<tr>
+<td>classID</td>
+<td>courseNum</td>
+<td>Name</td>
+<td>Type</td>
+</tr>
+<tr>
+<td>PL1</td>
+<td>CS 320N</td>
+<td>Practical Linear Algebra 1</td>
+<td>Undergraduate</td>
+</tr>
+<tr>
+<td>NL2</td>
+<td>CS 388</td>
+<td>Natural language processing</td>
+<td>Graduate</td>
+</tr>
+<tr>
+<td>CC3</td>
+<td>CS 380c</td> 
+<td>Compilers </td>
+<td>Graduate</td>
+</tr>
+<tr>
+<td>CS4</td>
+<td>CS 352</td>
+<td>Computer Systems Architecture</td>
+<td>Undergraduate</td>
+</tr>
+<tr>
+<td>CC5</td>
+<td>CS 346</td>
+<td>Cryptography</td>
+<td>Undergraduate</td>
+</tr>
+<tr>
+<td>CG6</td>
+<td>CS 354</td> 
+<td>Computer Graphics</td>
+<td>Undergraduate</td>
+</tr>
+<tr>
+<td>AT7</td>
+<td>CS 341</td>
+<td>Automata theory</td>
+<td>Undergraduate</td>
+</tr>
+<tr>
+<td>AP8</td>
+<td>CS 336</td>
+<td>Analysis of programs</td>
+<td>Undergraduate</td>
+</tr>
+<tr>
+<td>TP9</td>
+<td>CS 337</td>
+<td>Theory in programming practice</td>
+<td>Undergraduate</td>
+</tr>
+</table>

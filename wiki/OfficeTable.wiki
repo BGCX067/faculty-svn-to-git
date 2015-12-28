@@ -1,0 +1,46 @@
+=Offices=
+
+Foreign Key: facultyID<br>
+Primary Key: officeID
+
+<table border="1">
+
+<tr>
+<td>officeID</td>
+<td>facultyID</td>
+<td>building</td>
+<td>roomNumber</td>
+</tr>
+
+<tr>
+<td>A6244</td>
+<td>LA1</td>
+<td>ACES</td>
+<td>6.244</td>
+</tr>
+<tr>
+<td>A5252</td>
+<td>DB3</td>
+<td>ACES</td>
+<td>5.252</td>
+</tr>
+<tr>
+<td>A3432</td>
+<td>DB5</td>
+<td>ACES</td>
+<td>3.432</td>
+</tr>
+<tr>
+<td>A5244</td>
+<td>WC7</td>
+<td>ACES</td>
+<td>5.244</td>
+</tr>
+<tr>
+<td>A2332</td>
+<td>ID8</td>
+<td>ACES</td>
+<td>2.332</td>
+</tr>
+
+</table>

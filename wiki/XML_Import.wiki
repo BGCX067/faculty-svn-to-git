@@ -1,0 +1,345 @@
+*XML Import functions takes XML formated data, XML layout will be shown later, process the data and stores it into the Faculty data structure, will be described shortly also.*
+----------------------------------------------------------------------------------------
+*The Following is a the XML decided by the class in Google Groupd to ease the sharing of information to store into our databases.*
+-----------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" standalone = "yes"?> 
+<faculty_member> 
+   <faculty_firstname>Joe</faculty_firstname> 
+   <faculty_lastname>James</faculty_lastname> 
+       <office> 
+               <building>TAY</building> 
+               <room>3.112</room> 
+       </office> 
+       <phone_number>5124448888</phone_number> 
+       <email>joesm...@cs.utexas.edu</email> 
+       <website>http://cs.utexas.edu/~joesmith</website> 
+       <faculty_type>Researcher</faculty_type> 
+       <research_areas> 
+               <research_area>Autonomous Vehicles</research_area> 
+               <research_area>Artificial Intelligence</research_area> 
+       </research_areas> 
+       <office_hours> 
+               <office_hour> 
+                       <day>Monday</day> 
+                       <start>11:00 AM</start> 
+                       <end>1:00 PM</end> 
+               </office_hour> 
+       </office_hours> 
+       <degrees> 
+               <degree> 
+                       <degree_type>PhD</degree_type> 
+                       <degree_name>Computer Science</degree_name> 
+                       <institution>University of Texas at Austin</institution> 
+                       <degree_date>1987</degree_date> 
+               </degree> 
+       </degrees> 
+       <conferences> 
+               <conference> 
+                       <conference_name>Vehicle Talk Day</conference_name> 
+                       <conference_date>2008-08</conference_date> 
+                       <location>Austin, Texas</location> 
+                       <title>How Cars Drive Themselves</title> 
+               </conference> 
+       </conferences> 
+       <journals> 
+               <journal> 
+                       <journal_name>Journal of Academic Stuff(s)</journal_name> 
+                       <article_title>How I Made Vehicles Drive Themselves</article_title> 
+                       <journal_date>1999-06</journal_date> 
+               </journal> 
+       </journals> 
+       <graduate_students> 
+               <graduate_student> 
+                       <student_firstname>Bob</student_firstname> 
+                       <student_lastname>White</student_lastname> 
+                       <student_type>Masters</student_type> 
+                       <dissertation>How Stuff Works</dissertation> 
+                       <student_date>2009-07</student_date> 
+               </graduate_student> 
+       </graduate_students> 
+       <classes> 
+               <class> 
+                       <class_name>Intro to Operating Systems</class_name> 
+                       <course_number>CS373H</course_number> 
+                       <class_type>Undergraduate</class_type> 
+                       <semester>Spring 2010</semester> 
+                       <unique>55075</unique> 
+               </class> 
+       </classes> 
+       <awards> 
+               <award> 
+                       <award_name>Award for Being Great</award_name> 
+                       <award_type>Award</award_type> 
+                       <award_date>2007</award_date> 
+               </award> 
+       </awards> 
+       <books> 
+               <book> 
+                       <book_name>Book of Stuff</book_name> 
+                       <coauthors> 
+                               <coauthor> 
+                                       <coauthor_firstname>John</coauthor_firstname> 
+                                       <coauthor_lastname>Smithington</coauthor_lastname> 
+                               </coauthor> 
+                       </coauthors> 
+               </book> 
+       </books> 
+</faculty_member> 
+----------------------------------------------------------------------------------------
+*To facilitate the parsing of the XML tags, we used an open source XML Python parser library called BeautifulSoup.
+http://www.crummy.com/software/BeautifulSoup/ *
+
+Say we store the following file contents in a string named 'text',
+<faculty> 
+    <type>Research</type> 
+    <name> 
+        <first>Joe</first> 
+        <last>Bob</last> 
+    </name> 
+</faculty> :
+you can simply create a BSS object, (BeautifulStoneSoup is a sub-library in BeautifulSoup):
+faculty = BeautifulStoneSoup(text) 
+and access the data inside specific labels as follow:
+type = faculty.type.string 
+'type' will containg the string ''Research'' in this case.
+----------------------------------------------------------------------------------------
+*Since we are not using an actual database yet, we created a Faculty class with all of the needed attributes to hold on to the imported data temporarily, hence creating a list of Faculty gives the illusion of having some kind of database.*
+
+#Container for data of one Faculty Member
+class Faculty (object):
+	
+    class OfficeHour (object):
+        def __init__(self,day,start,end):
+            self.day = day
+            self.start = start
+            self.end = end
+        def getDay(self):
+            return self.day
+        def getStart(self):
+            return self.start
+        def __str__(self):
+            return self.type, ":", self.number
+        def getEnd(self):
+        	return self.end
+        
+    class Degree(object):
+        def __init__(self, type, name, institution, date):
+            self.name = name
+            self.type = type
+            self.institution = institution
+            self.date = date
+        def getType(self):
+            return self.type
+        def getName(self):
+            return self.name
+        def getInstitution(self):
+            return self.institution
+        def getDate(self):
+            return self.date
+    
+    class Conference(object):
+        def __init__(self, name, location, date, title):
+            self.name = name
+            self.location = location
+            self.date = date
+            self.title = title
+        def getName(self):
+            return self.name
+        def getLocation(self):
+            return self.location
+        def getDate(self):
+            return self.date
+        def getTitle(self):
+            return self.title
+    
+    class Journal(object):
+        def __init__(self, name, date, title):
+            self.name = name
+            self.date = date
+            self.title = title
+        def getName(self):
+            return self.name
+        def getDate(self):
+            return self.date
+        def getTitle(self):
+            return self.title
+        
+    class Student(object):
+        def __init__(self, first, last, type, dissertation, date):
+            self.firstName = first
+            self.lastName = last
+            self.type = type
+            self.dissertation = dissertation
+            self.date = date
+        def getFirstName(self):
+            return self.firstName    
+        def getLastName(self):
+            return self.lastName
+        def getType(self):
+            return self.type
+        def getDissertation(self):
+        	if self.dissertation == None:
+        	   return ""
+        	else:
+        		return self.dissertation
+        def getDate(self):
+            return self.date
+        
+    class Class(object):
+        def __init__(self,name,number,type,semester,unique):
+            self.name = name
+            self.number = number
+            self.type = type
+            self.semester = semester
+            self.unique = unique
+        def getName(self):
+            return self.name
+        def getNumber(self):
+            return self.number
+        def getType(self):
+            return self.type
+        def getSemester(self):
+            return self.semester
+        def getUniqueNumber(self):
+            return self.unique
+        
+    class Award(object):
+        def __init__(self, name, type, date):
+            self.name = name
+            self.type = type
+            self.date = date
+        def getName(self):
+            return self.name
+        def getDate(self):
+            return self.date
+        def getType(self):
+            return self.type
+
+        
+    class Book(object):
+        def __init__(self, book):
+             self.book = book
+        def getBook(self):
+            return self.book
+
+        
+    //Constructor
+    def __init__(self):
+	self.office_hours = []
+        self.research_areas = []
+        self.degrees = []
+        self.conferences = []
+        self.journals = []
+        self.students = []
+        self.classes = []
+        self.awards = []
+        self.books = []
+        
+    //Mutators
+    def setName(self,first,last):
+        self.firstName = first
+        self.lastName = last
+        
+    def setOffice(self, building, room):
+        self.officeBuilding = building
+        self.officeRoom = room
+        
+    def setPhone(self, number):
+	    self.phone = number
+        
+    def setEmail(self, mail):
+        self.email = mail
+        
+    def setWebsite(self, site):
+        self.website = site
+        
+    def setType(self, type):
+        self.type = type
+    
+    def addResearchArea(self,area):
+        self.research_areas.append(area)
+	
+    def addOfficeHour(self, day, start, end):
+	    self.office_hours.append(Faculty.OfficeHour(day,start,end))
+        
+    def addDegree(self, type, name, institutions, date):
+        temp = Faculty.Degree(type, name, institutions, date)
+        self.degrees.append(temp)
+        
+    def addConference(self, name, location, date, title):
+        self.conferences.append(Faculty.Conference(name, location, date, title))
+        
+    def addJournal(self, name, date, title):
+        self.journals.append(Faculty.Journal(name, date, title))
+        
+    def addStudent(self, first, last, type, dissertation, date):
+        self.students.append(Faculty.Student(first, last, type, dissertation, date))
+        
+    def addClass(self,name, number, type, semester, unique):
+        self.classes.append(Faculty.Class(name,number,type,semester,unique))
+        
+    def addAward(self, name, type, date):
+        self.awards.append(Faculty.Award(name,type,date))
+        
+    def addBook(self,book):
+        self.books.append(Faculty.Book(book))
+        
+    //Accesors
+    def getFirstName(self):
+        return self.firstName
+                
+    def getLastName(self):
+        return self.lastName
+    
+    def getOffice(self):
+        str = self.officeBuilding
+        str += " "
+        str += self.officeRoom
+        return str
+    
+    def getOfficeBuilding(self):
+	    return self.officeBuilding
+    
+    def getOfficeRoom(self):
+	    return self.officeRoom
+    
+    def getPhone(self):
+        return self.phone
+    
+    def getEmail(self):
+        return self.email
+    
+    def getWebsite(self):
+        return self.website
+    
+    def getType(self):
+        return self.type
+    
+    def getResearchAreas(self):
+        return self.research_areas
+    
+    def getOfficeHours(self):
+	    return self.office_hours
+    
+    def getDegrees(self):
+        return self.degrees
+    
+    def getConferences(self):
+        return self.conferences
+    
+    def getJournals(self):
+        return self.journals
+    
+    def getStudents(self):
+        return self.students
+    
+    def getClasses(self):
+        return self.classes
+    
+    def getAwards(self):
+        return self.awards
+    
+    def getBooks(self):
+        return self.books
+
+----------------------------------------------------------------------------------------

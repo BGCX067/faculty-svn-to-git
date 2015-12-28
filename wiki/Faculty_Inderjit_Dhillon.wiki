@@ -1,0 +1,91 @@
+<faculty_member> 
+
+   <faculty_firstname>Inderjit</faculty_firstname> 
+   
+   <faculty_lastname>Dhillon</faculty_lastname> 
+   
+   <office> 
+       <building>ACES</building> 
+       <room>2.332</room> 
+   </office> 
+   
+   <phone_number>5124719725</phone_number> 
+   
+   <email>dhillon@cs.utexas.edu</email> 
+   
+   <website>http://www.cs.utexas.edu/~inderjit/</website> 
+   
+   <faculty_type>Professor</faculty_type> 
+   
+   <research_areas> 
+       <research_area>Genetic Algorithms</research_area> 
+       <research_area>Machine Learning</research_area>
+       <research_area>Bioinformatics</research_area>
+   </research_areas> 
+   
+   <office_hours> 
+        <office_hour> 
+              <day>Tuesdat</day> 
+              <start>11:00 AM</start> 
+              <end>12:00 PM</end> 
+        </office_hour>  
+   </office_hours> 
+       
+   <degrees> 
+   		<degree> 
+              <degree_type>PhD</degree_type> 
+              <degree_name>Computer Science</degree_name> 
+              <institution>University of California Berkeley</institution> 
+              <degree_date>1997</degree_date> 
+        </degree>
+   </degrees>
+    
+   <conferences>
+   	    <conference> 
+             <conference_name>Workshop on Algorithms for Modern Massive Data Sets</conference_name> 
+             <conference_date>2006-07-22</conference_date> 
+             <location>Palo Alto, California</location> 
+             <title>Kernel Learning with Bregman Matrix Divergences</title> 
+        </conference>  
+   </conferences> 
+       
+   <journals> 
+        <journal> 
+             <journal_name>Proceedings of the Neural Information Processing Systems Conference</journal_name> 
+             <article_title>Matrix Completion from Power-Law Distributed Samples</article_title> 
+             <journal_date>2009-12</journal_date> 
+        </journal> 
+   </journals> 
+       
+   <graduate_students> 
+        <graduate_student> 
+              <student_firstname>Brian</student_firstname> 
+              <student_lastname>Kulis</student_lastname> 
+              <student_type>PhD</student_type> 
+              <dissertation>Scalable Kernel Methods for Machine Learning</dissertation> 
+              <student_date>2008-11</student_date> 
+        </graduate_student> 
+   </graduate_students> 
+       
+   <classes> 
+       <class> 
+             <class_name>Data Mining: A Mathematical Perspectiv</class_name> 
+             <course_number>CS391D</course_number> 
+             <class_type>Graduate</class_type> 
+             <semester>Fall 2009</semester> 
+             <unique>54950</unique> 
+       </class> 
+   </classes> 
+       
+   <awards> 
+   	   <award> 
+             <award_name>NSF Career Award</award_name> 
+             <award_type>Research Award</award_type> 
+             <award_date>2001</award_date> 
+       </award>
+   </awards> 
+       
+   <books> 
+   </books> 
+       
+</faculty_member>

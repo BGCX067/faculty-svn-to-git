@@ -1,0 +1,64 @@
+The different tables: 
+(These are sample tables, with the attributes and some sample data plugged in)
+
+ConferenceTable<br/>
+FacultyPresentationJoinTable<br/>
+PresentationTable<br/>
+JournalTable<br/>
+ArticleTable<br/>
+GradStudentTable<br/>
+OfficeTable<br/>
+FacultyDegreeJunctionTable<br/>
+DegreeTable<br/>
+InstanceClassTable<br/>
+OfficeHourTable<br/>
+ClassTable<br/>
+FacultyBookJoinTable<br/>
+BookTable<br/>
+FacultyAwardsJunctionTable<br/>
+AwardTable<br/>
+ArticleFacultyJoinTable<br/>
+FacultyTable<br/>
+
+Faculty Pages:
+(These are individual pages for some faculty members, with values for their different attributes)
+
+Faculty_Donald_Fussell<br/>
+Faculty_Mary_Eberlein<br/>
+Faculty_Inderjit_Dhillon<br/>
+Faculty_William_Cook<br/>
+Faculty_Fred_Chang<br/>
+Faculty_Doug_Burger<br/>
+Faculty_Robert_Boyer<br/>
+Faculty_Don_Batory<br/>
+Faculty_Dana_Ballard<br/>
+Faculty_Lorenzo_Alvisi<br/>
+
+The different forms:
+(These are our two main forms. The admin form lets us collect data like:    
+    * faculty EIDs
+    * student EIDs
+    * course numbers and names
+    * course uniques
+    * research areas
+    * journals
+    * conferences
+    * publishers
+    * award types and names
+
+Faculty forms collect data about individual faculty members, along with the associations with the above mentioned attributes)
+
+AdminWebForm<br/>
+FacultyWebForm<br/>
+
+Import/Export:
+(These are pages which explain our import/export functions, with an example given.)
+
+XML_Export<br/>
+XML_Import<br/>
+
+Filter Search:
+<a href= "http://utcsfaculty.appspot.com/search">Filter Search</a>
+
+Google Search:
+<a href = "http://utcsfaculty.appspot.com/gsearch"> Google Search</a>

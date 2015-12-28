@@ -1,0 +1,16 @@
+=FacultyBookJoinTable=
+
+Primary Key: bookID|facultyID <br>
+Foreign Key: from FacultyTable - facultyID, from BookTable - bookID
+
+
+||facultyID||bookID||
+||CL1||PP1||
+||RM1||CM2||
+||WP1||NR3||
+||ER1||AC4||
+||PS1||IA5||
+||RG1||AB6||
+||DK1||NM7||
+||DK1||LA8||
+||DK1||NA9||

@@ -1,0 +1,83 @@
+= Degrees =
+
+Primary Key : degreeID
+
+<table border="1">
+<tr>
+<td>degreeID</td>
+<td>type</td>
+<td>name</td>
+<td>institution</td>
+<td>date</td>
+</tr>
+<tr>
+<td>PHDCU96</td>
+<td>Ph.D.</td>
+<td>Computer Science</td>
+<td>Cornell University </td>
+<td>1996</td>
+</tr>
+<tr>
+<td>PHDUCI74</td>
+<td>Ph.D.</td>
+<td>Computer Science</td>
+<td>University of California, Irvine</td>
+<td>1974</td>
+</tr>
+<tr>
+<td>PHDUTOR80</td>
+<td>Ph.D. </td>
+<td>Computer Science</td>
+<td>University of Toronto </td>
+<td>1980</td>
+</tr>
+<tr>
+<td>PHDUTA71</td>
+<td>Ph.D. </td>
+<td>Computer Science</td>
+<td>The University of Texas at Austin</td>
+<td>1971</td>
+</tr>
+<tr>
+<td>PHDUWM98</td>
+<td>Ph.D.</td>
+<td>Computer Science</td>
+<td>University of Wisconsin at Madison </td>
+<td>1998</td>
+</tr>
+<tr>
+<td>PHDUO81</td>
+<td>Ph.D.</td>
+<td>Computer Science</td>
+<td>University of Oregon </td>
+<td>1981</td>
+</tr>
+<tr>
+<td>PHDBU89</td>
+<td>Ph.D.</td>
+<td>Computer Science</td>
+<td>Brown University</td>
+<td>1989</td>
+</tr>
+<tr>
+<td>PHDUCB97</td>
+<td>Ph.D.</td>
+<td>Computer Science</td>
+<td>University of California Berkley</td>
+<td>1997</td>
+</tr>
+<tr>
+<td>PHDUTE96</td>
+<td>Ph.D.</td>
+<td>Computer Science</td>
+<td>University of Tennessee</td>
+<td>1996</td>
+</tr>
+<tr>
+<td>PHDUTD80</td>
+<td>Ph.D.</td>
+<td>Computer Science</td>
+<td>The University of Texas at Dallas</td>
+<td>1980</td>
+</tr>
+</table>

@@ -1,0 +1,137 @@
+<faculty_member>
+	
+	<faculty_firstname>Doug</faculty_firstname>
+	<faculty_lastname>Burger</faculty_lastname>
+	
+	<office>
+		<building>ACE</building>
+		<room>3.432</room>
+	</office>
+	
+	<phone_number>5124719795</phone_number>
+	
+	<email>dburger@cs.utexas.edu</email>
+	
+	<website>http://cs.utexas.edu/~dburger</website>
+	
+	<faculty_type>Professor</faculty_type>
+	
+	<research_areas>
+		<research_area>Computer architecture</research_area>
+		<research_area>microprocessor and VLSI design</research_area>
+		<research_area>memory systems</research_area>
+		<research_area>high-performance microarchitectures</research_area>
+		<research_area>application-specific embedded systems</research_area>
+	</research_areas>
+	
+	<office_hours>
+	</office_hours>
+	
+	<degrees>
+		<degree>
+			<degree_type>PhD</degree_type>
+			<degree_name>Computer Science</degree_name>
+			<institution>University of Wisconsin at Madison</institution>
+			<degree_date>1998</degree_date>
+		</degree>
+	</degrees>
+	
+	<conferences>
+		<conference>
+			<conference_name>11th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)</conference_name>
+			<conference_date>2004-10</conference_date>
+			<location>Austin, Texas</location>
+			<title>Scalable Selective Re-execution for EDGE Architectures</title>
+		</conference>
+	</conferences>
+	
+	<journals>
+		<journal>
+			<journal_name>IEEE Transactions on Computers special issue on memory systems</journal_name>
+			<article_title>Designing a Modern Memory Hierarchy with Hardware Prefetching</article_title>
+			<journal_date>2001-11</journal_date>
+		</journal>
+	</journals>
+	
+	<graduate_students>
+		<graduate_student>
+			<student_firstname>Aaron</student_firstname>
+			<student_lastname>Smith</student_lastname>
+			<student_type>PhD</student_type>
+			<dissertation>Dataflow Predication</dissertation>
+			<student_date>2009-07</student_date>
+		</graduate_student>
+		<graduate_student>
+			<student_firstname>Bertrand</student_firstname>
+			<student_lastname>Maher</student_lastname>
+			<student_type>PhD</student_type>
+			<dissertation>An Evaluation of the TRIPS Computer System</dissertation>
+			<student_date>2009-07</student_date>
+		</graduate_student>
+	</graduate_students>
+	
+	<classes>
+		<class>
+			<class_name>Advanced Computer Architecture</class_name>
+			<course_number>CS382M</course_number>
+			<class_type>Graduate</class_type>
+			<semester>Fall 2006</semester>
+			<unique>56530</unique>
+		</class>
+		<class>
+			<class_name>Computer Organization and Programming</class_name>
+			<course_number>CS310</course_number>
+			<class_type>Undergraduate</class_type>
+			<semester>Fall 2007</semester>
+			<unique>56425</unique>
+		</class>
+		<class>
+			<class_name>Computer Organization and Programming</class_name>
+			<course_number>CS310</course_number>
+			<class_type>Undergraduate</class_type>
+			<semester>Fall 2007</semester>
+			<unique>56430</unique>
+		</class>
+		<class>
+			<class_name>Computer Organization and Programming</class_name>
+			<course_number>CS310</course_number>
+			<class_type>Undergraduate</class_type>
+			<semester>Fall 2007</semester>
+			<unique>56435</unique>
+		</class>
+		<class>
+			<class_name>Computer Organization and Programming</class_name>
+			<course_number>CS310</course_number>
+			<class_type>Undergraduate</class_type>
+			<semester>Fall 2007</semester>
+			<unique>56437</unique>
+		</class>
+		<class>
+			<class_name>Computer Systems Architecture</class_name>
+			<course_number>CS352</course_number>
+			<class_type>Undergraduate</class_type>
+			<semester>Spring 2007</semester>
+			<unique>55015</unique>
+		</class>
+	</classes>
+	
+	<awards>
+	</awards>
+	
+	<books>
+		<book>
+			<book_name>The Handbook of Computer Science and Engineering</book_name>
+			<coauthors>
+				<coauthor>
+					<coauthor_firstname>GS</coauthor_firstname>
+					<coauthor_lastname>Sohi</coauthor_lastname>
+				</coauthor>
+				<coauthor>
+					<coauthor_firstname>JR</coauthor_firstname>
+					<coauthor_lastname>Goodman</coauthor_lastname>
+				</coauthor>
+			</coauthors>
+		</book>
+	</books>
+	
+</faculty_member>

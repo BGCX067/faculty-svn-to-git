@@ -1,0 +1,95 @@
+<faculty_member>
+	
+	<faculty_firstname>Robert</faculty_firstname>
+	<faculty_lastname>Boyer</faculty_lastname>
+	
+	<office>
+		<building>home</building>
+		<room>0.00</room>
+	</office>
+	
+	<phone_number>5124719745</phone_number>
+	
+	<email>boyer@cs.utexas.edu</email>
+	
+	<website>http://cs.utexas.edu/~boyer</website>
+	
+	<faculty_type>Professor Emeritus</faculty_type>
+	
+	<research_areas>
+		<research_area>Program verification</research_area>
+		<research_area>automatic theorem proving</research_area>
+		<research_area>artificial intelligence</research_area>
+	</research_areas>
+	
+	<office_hours>
+	</office_hours>
+	
+	<degrees>
+		<degree>
+			<degree_type>PhD</degree_type>
+			<degree_name>Computer Science</degree_name>
+			<institution>The University of Texas at Austin</institution>
+			<degree_date>1971</degree_date>
+		</degree>
+	</degrees>
+	
+	<conferences>
+		<conference>
+			<conference_name>Vehicle Talk Day</conference_name>
+			<conference_date>2008-08</conference_date>
+			<location>Austin, Texas</location>
+			<title>How Cars Drive Themselves</title>
+		</conference>
+	</conferences>
+	
+	<journals>
+		<journal>
+			<journal_name>American Mathematical Monthly</journal_name>
+			<article_title>Proof Checking the RSA Public Key Encryption Algorithm</article_title>
+			<journal_date>1984-03</journal_date>
+		</journal>
+		<journal>
+			<journal_name>Journal of the Association for Computing Machinery</journal_name>
+			<article_title>A Mechanical Proof of the Unsolvability of the Halting Problem</article_title>
+			<journal_date>1984-07</journal_date>
+		</journal>
+		<journal>
+			<journal_name>Proceedings of the 5th International Joint Conference on Artificial Intelligence</journal_name>
+			<article_title>A Lemma Driven Automatic Theorem Prover for Recursive Function Theory</article_title>
+			<journal_date>1977-01</journal_date>
+		</journal>
+	</journals>
+	
+	<graduate_students>
+	</graduate_students>
+	
+	<classes>
+	</classes>
+	
+	<awards>
+		<award>
+			<award_name>Software System Award</award_name>
+			<award_type>ACM Award</award_type>
+			<award_date>2005</award_date>
+		</award>
+		<award>
+			<award_name>Best Argument for Tenure</award_name>
+			<award_type>Best of Austin Award</award_type>
+			<award_date>1996</award_date>
+		</award>
+	</awards>
+	
+	<books>
+		<book>
+			<book_name>A Computational Logic Handbook</book_name>
+			<coauthors>
+				<coauthor>
+					<coauthor_firstname>JS</coauthor_firstname>
+					<coauthor_lastname>Moore</coauthor_lastname>
+				</coauthor>
+			</coauthors>
+		</book>
+	</books>
+	
+</faculty_member>

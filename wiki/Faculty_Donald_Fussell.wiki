@@ -1,0 +1,93 @@
+<faculty_member> 
+
+   <faculty_firstname>Donald</faculty_firstname> 
+   
+   <faculty_lastname>Fussell</faculty_lastname> 
+   
+   <office> 
+       <building>ACES</building> 
+       <room>2.120</room> 
+   </office> 
+   
+   <phone_number>5124719719</phone_number> 
+   
+   <email>fussell@cs.utexas.edu</email> 
+   
+   <website>http://www.cs.utexas.edu/~fussell/</website> 
+   
+   <faculty_type>Professor</faculty_type> 
+   
+   <research_areas> 
+       <research_area>Computer Architecture</research_area> 
+       <research_area>Computer Graphics</research_area> 
+       <research_area>VLSI Systems Design</research_area>
+       <research_area>Database Concurrency Control</research_area>
+   </research_areas> 
+   
+   <office_hours> 
+        <office_hour> 
+              <day>Tuesday</day> 
+              <start>2:00 PM</start> 
+              <end>3:00 PM</end> 
+        </office_hour>
+        <office_hour> 
+              <day>Thursday</day> 
+              <start>2:00 PM</start> 
+              <end>3:00 PM</end> 
+        </office_hour>  
+   </office_hours> 
+       
+   <degrees> 
+   		<degree> 
+              <degree_type>BA</degree_type> 
+              <degree_name>Mathematics and Social Science</degree_name> 
+              <institution>Dartmouth College</institution> 
+              <degree_date>1973</degree_date> 
+        </degree>
+        <degree> 
+              <degree_type>MS</degree_type> 
+              <degree_name>Computer Science</degree_name> 
+              <institution>The University of Texas at Dallas</institution> 
+              <degree_date>1977</degree_date> 
+        </degree>
+        <degree> 
+              <degree_type>PhD</degree_type> 
+              <degree_name>Computer Science</degree_name> 
+              <institution>The University of Texas at Dallas</institution> 
+              <degree_date>1980</degree_date> 
+        </degree> 
+   </degrees>
+    
+   <conferences> 
+   </conferences> 
+       
+   <journals> 
+   </journals> 
+       
+   <graduate_students> 
+   </graduate_students> 
+       
+   <classes> 
+       <class> 
+             <class_name>Computer Systems Architecture</class_name> 
+             <course_number>CS352H</course_number> 
+             <class_type>Undergraduate</class_type> 
+             <semester>Fall 2009</semester> 
+             <unique>54810</unique> 
+       </class> 
+       <class> 
+             <class_name>Computer Organization and Programming</class_name> 
+             <course_number>CS310</course_number> 
+             <class_type>Undergraduate</class_type> 
+             <semester>Spring 2009</semester> 
+             <unique>54040</unique> 
+       </class>
+   </classes> 
+       
+   <awards> 
+   </awards> 
+       
+   <books> 
+   </books> 
+       
+</faculty_member> 

@@ -1,0 +1,27 @@
+First name - marshall
+Last name - marshall
+Institution - ishan
+year- marshall
+office building - tessa
+office number - josue
+phone numb done
+email- brian
+website - brian
+office hours - josue
+conference type - josue
+date - marshall
+location- ishan
+journal date - marshall
+grad student date - marshall
+classes -tessa
+course number- brian
+unique id-tessa
+semester year- marshall
+award year - marshall
+book isbn- brian
+
+come back sunday with these methods written, then sunday we will write ValidateAll and get data into data class 
+
+marshall is doing presentation
+
+tessa is updating uml diagram

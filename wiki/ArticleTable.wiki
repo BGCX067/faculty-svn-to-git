@@ -1,0 +1,24 @@
+==Article==
+facultyID <br>
+articleID <br>
+journalID <br>
+Name <br>
+Date <br>
+
+
+= Details =
+
+Primary Key: articleID <br>
+Foreign Key: journalID
+
+||articleID||journalID||Name||Date||
+||OE1||A1||Orthogonal Eigenvectors and Relative Gaps||2004||
+||GN1||B1||Graph NonIsomorphism has Subexponential Size Proofs unless the Polynomial-Time Hierarchy Collapses||2002||
+||AP1||C1||Automatic Parameterization of Rational Curves and Surfaces III: Algebraic Plane Curves||1988||
+||CH1||D1||Cryptographic Hardness for Learning Intersections of Halfspaces||2006||
+||UL1||E1||Unconditional Lower Bounds for Learning Intersections of Halfspaces||2006||
+||LA1||F1||Learnability and Automatizability||2004||
+||GO1||G1||Geometric Optimization and the Polynomial Hierarchy||1987||
+||PG1||H1||Proving Geometric Algorithm Non-Solvability: An Application of Factoring Polynomials||1986||
+||TC1||I1||The Capsid Proteins of a Large, Icosahedral dsDNA Virus||2008||
+||SR1||J1||Surface Reconstruction From Non-parallel Curve Networks||2008|| 

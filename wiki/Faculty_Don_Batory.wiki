@@ -1,0 +1,80 @@
+<faculty_member>
+	
+	<faculty_firstname>Don</faculty_firstname>
+	<faculty_lastname>Batory</faculty_lastname>
+	
+	<office>
+		<building>ACE</building>
+		<room>5.252</room>
+	</office>
+	
+	<phone_number>5124719713</phone_number>
+	
+	<email>batory@cs.utexas.edu</email>
+	
+	<website>http://cs.utexas.edu/~dsb</website>
+	
+	<faculty_type>Professor</faculty_type>
+	
+	<research_areas>
+		<research_area>Software Product Lines</research_area>
+		<research_area>Program Synthesis</research_area>
+		<research_area>Model Driven Development</research_area>
+		<research_area>Program Refactorings</research_area>
+	</research_areas>
+	
+	<office_hours>
+		<office_hour>
+			<day>Thursday</day>
+			<start>03:30 PM</start>
+			<end>04:30 PM</end>
+		</office_hour>
+	</office_hours>
+	
+	<degrees>
+		<degree>
+			<degree_type>PhD</degree_type>
+			<degree_name>Computer Science</degree_name>
+			<institution>University of Toronto</institution>
+			<degree_date>1980</degree_date>
+		</degree>
+	</degrees>
+	
+	<conferences>
+		<conference>
+			<conference_name>Principles of Programming Languages (POPL)</conference_name>
+			<conference_date>2007-04</conference_date>
+			<location>Braga, Portugal</location>
+			<title>From Implementation to Theory in Product Synthesis</title>
+		</conference>
+		<conference>
+			<conference_name>European Joint Conferences on Theory and Practice of Software (ETAPS)</conference_name>
+			<conference_date>2007-01</conference_date>
+			<location>Nice, France</location>
+			<title>Program Refactoring, Program Synthesis, and Model-Driven Development</title>
+		</conference>
+	</conferences>
+	
+	<journals>
+	</journals>
+	
+	<graduate_students>
+	</graduate_students>
+	
+	<classes>
+		<class>
+			<class_name>Database Management</class_name>
+			<course_number>CS347</course_number>
+			<class_type>Undergraduate</class_type>
+			<semester>Fall 2008</semester>
+			<unique>55665</unique>
+		</class>
+	</classes>
+	
+	<awards>
+	</awards>
+	
+	<books>
+	</books>
+	
+</faculty_member>

@@ -1,0 +1,24 @@
+==ArticleFacultyJoinTable==
+facultyID <br>
+articleID <br>
+
+
+
+= Details =
+
+Primary Key: facultyID<br>articleID <br>
+
+Foreign Keys: from FacultyTable: facultyID, from ArticleTable:articleID
+
+
+||facultyID||articleID||
+||Inderjit Dhillon||OE1||
+||Adam R. Klivans||GN1||
+||Chandrajit Bajaj||AP1||
+||Adam Klivans||CH1||
+||Adam Klivans||UL1||
+||Adam Klivans||LA1||
+||Chandrajit Bajaj||GO1||
+||Chandrajit Bajaj||PG1||
+||Chandrajit Bajaj||TC1||
+||Chandrajit Bajaj||SR1||

@@ -1,0 +1,22 @@
+==Journal==
+journalID <br>
+Name <br>
+
+
+
+= Details =
+
+Primary Key: journalID <br>
+
+
+||journalID||Name||
+||A1||SIAM Journal on Matrix Analysis and Applications||
+||B1||SIAM Journal on Computing||
+||C1||Computer Aided Geometric Design||
+||D1||Journal of Computer and System Sciences||
+||E1||Machine Learning Journal||
+||F1||Journal of Computer and System Sciences||
+||G1||Theoretical Computer Science||
+||H1||Journal of Symbolic Computation||
+||I1||Journal of Structural Biology||
+||J1||Computer Graphics Forum||

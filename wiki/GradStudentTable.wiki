@@ -1,0 +1,97 @@
+=GradStudents= 
+
+Primary Key: studentID <br>
+Foreign Key: facultyID
+
+<table border="1">
+<tr>
+<td>facultyID</td>
+<td>studentID</td>
+<td>firstName</td>
+<td>lastName</td>
+<td>Type</td>
+<td>Date</td>
+<td>Theses/Dissertation</td>
+</tr>
+<tr>
+<td>LQ1</td>
+<td>MH1</td>
+<td>Mi</td>
+<td>Han</td>
+<td>PhD</td>
+<td>fall 2005</td>
+</tr>
+<tr>
+<td>PR1</td>
+<td>SJ1</td>
+<td>Suyog</td>
+<td>Jain</td>
+<td>Masters</td>
+<td>Fall 2009</td>
+</tr>
+<tr>
+<td>fid</td>
+<td>VJ1</td>
+<td>Varun</td>
+<td>Jain</td>
+<td>Masters</td>
+<td>Fall 2009</td>
+</tr>
+<tr>
+<td>AG1</td>
+<td>KJ1</td>
+<td>Keith</td>
+<td>Jang</td>
+<td>PhD</td>
+<td>Fall 2004</td>
+</tr>
+<tr>
+<td>fid</td>
+<td>AK1</td>
+<td>Ann</td>
+<td>Kilzer</td>
+<td>PhD</td>
+<td>Fall 2009</td>
+</tr>
+<tr>
+<td>KG1</td>
+<td>AK2</td>
+<td>Adriana</td>
+<td>Kovashka</td>
+<td>PhD</td>
+<td>Fall 2009</td>
+</tr>
+<tr>
+<td>DG1</td>
+<td>XL1</td>
+<td>Xin</td>
+<td>Li</td>
+<td>PhD</td>
+<td>Fall 2005</td>
+</tr>
+<tr>
+<td>fid</td>
+<td>SP1</td>
+<td>Swati</td>
+<td>Pallapalli</td>
+<td>Masters</td>
+<td>Fall 2008</td>
+<td>Localization in Wireless Sensor Networks</td>
+</tr>
+<tr>
+<td>fid</td>
+<td>SR1</td>
+<td>Srivatsan</td>
+<td>Ramanujam</td>
+<td>Masters</td>
+<td>Fall 2007</td>
+</tr>
+<tr>
+<td>RM1</td>
+<td>JS1</td>
+<td>Jacob</td>
+<td>Schrum</td>
+<td>PhD</td>
+<td>Fall 2006</td>
+</tr>
+</table>

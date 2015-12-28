@@ -1,0 +1,78 @@
+=Classes= 
+
+Primary Key: UniqueID <br>
+Foreign Key: from FacultyTable - facultyID, from ClassTable - classID
+
+<table border="1">
+<tr>
+<td>facultyID</td>
+<td>classID</td>
+<td>name</td>
+<td>UniqueID</td>
+<td>Semester</td>
+</tr>
+<tr>
+<td>RG1</td>
+<td>PL1</td>
+<td>CS 320N Practical Linear Algebra 1</td>
+<td>54730</td>
+<td>Fall 2009</td>
+</tr>
+<tr>
+<td>RM1</td>
+<td>NL2</td>
+<td>CS 388 Natural language processing</td>
+<td>54935</td>
+<td>Fall 2009</td>
+</tr>
+<tr>
+<td>KM1</td>
+<td>CC3</td>
+<td>CS 380c Compilers </td>
+<td>54900</td>
+<td>Fall 2009</td>
+</tr>
+<tr>
+<td>WH1</td>
+<td>CS4</td>
+<td>CS 352 Computer Systems Architecture</td>
+<td>54805</td>
+<td>Fall 2009</td>
+</tr>
+<tr>
+<td>AG1</td>
+<td>CC5</td>
+<td>CS 346 Cryptography</td>
+<td>54795</td>
+<td>Fall 2009</td>
+</tr>
+<tr>
+<td>CB1</td>
+<td>CG6</td>
+<td>CS 354 Computer Graphics</td>
+<td>54815</td>
+<td>Fall 2009</td>
+</tr>
+<tr>
+<td>ER1</td>
+<td>AT7</td>
+<td>CS 341 Automata theory</td>
+<td>54780</td>
+<td>Fall 2009</td>
+</tr>
+<tr>
+<td>MM1</td>
+<td>AP8</td>
+<td>CS 336 Analysis of programs</td>
+<td>54750</td>
+<td>Fall 2009</td>
+</tr>
+<tr>
+<td>JM1</td>
+<td>TP9</td>
+<td>CS 337 Theory in programming practice</td>
+<td>54765</td>
+<td>Fall 2009</td>
+</tr>
+
+</table>

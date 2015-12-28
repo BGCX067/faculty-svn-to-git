@@ -1,0 +1,115 @@
+=Faculty= 
+
+Primary Key: facultyID
+
+<table border="1">
+<tr>
+<td>facultyID</td>
+<td>firstName</td>
+<td>lastName</td>
+<td>phoneNumber</td>
+<td>e-mail</td>
+<td>Website</td>
+<td> Type</td>
+</tr>
+<tr>
+<td>LA1</td>
+<td>Lorenzo</td>
+<td>Alvisi</td>
+<td>5124719792</td>
+<td>lorenzo@cs.utexas.edu</td>
+<td>http://www.cs.utexas.edu/~lorenzo/</td>
+<td>Professor</td>
+</tr>
+<tr>
+<td>DB2</td>
+<td>Dana</td>
+<td>Ballard</td>
+<td>5124719750</td>
+<td>dana@cs.utexas.edu</td>
+<td>http://www.cs.utexas.edu/~dana/</td>
+<td>Professor</td>
+</tr>
+<tr>
+<td>DB3</td>
+<td>Dan</td>
+<td>Batory</td>
+<td>5124719713</td>
+<td>dsb@cs.utexas.edu</td>
+<td>http://www.cs.utexas.edu/~dsb/</td>
+<td> Professor</td>
+</tr>
+<tr>
+<td>RSB4</td>
+<td>Robert</td>
+<td>Boyer</td>
+<td>5124719745</td>
+<td>boyer@cs.utexas.edu</td>
+<td>http://www.cs.utexas.edu/~boyer/</td>
+<td> Professor Emeritus</td>
+</tr>
+<tr>
+<td>DB5</td>
+<td>Doug</td>
+<td>Burger</td>
+<td>5124719795</td>
+<td>dburger@cs.utexas.edu</td>
+<td>http://www.cs.utexas.edu/~dburger/</td>
+<td> Professor</td>
+</tr>
+<tr>
+<td>FC6</td>
+<td>Fred</td>
+<td>Chang</td>
+<td>5122321483</td>
+<td>chang@cs.utexas.edu</td>
+<td>http://www.cs.utexas.edu/~chang/</td>
+<td> Research Professor</td>
+</tr>
+<tr>
+<td>WC7</td>
+<td>William</td>
+<td>Cook</td>
+<td>5124719555</td>
+<td>wcook@cs.utexas.edu</td>
+<td>http://www.cs.utexas.edu/~wcook/</td>
+<td>Assistant Professor</td>
+</tr>
+<tr>
+<td>ID8</td>
+<td>Inderjit</td>
+<td>Dhillon</td>
+<td>5124719725</td>
+<td>dhillon@cs.utexas.edu</td>
+<td>http://www.cs.utexas.edu/~inderjit/</td>
+<td>Professor</td>
+</tr>
+<tr>
+<td>ME9</td>
+<td>Mary</td>
+<td>Eberlein</td>
+<td>5124719722</td>
+<td>eberlein@cs.utexas.edu</td>
+<td>http://www.cs.utexas.edu/~eberlein/</td>
+<td>Lecturer</td>
+</tr>
+<tr>
+<td>DF10</td>
+<td>Donald</td>
+<td>Fussell</td>
+<td>5124719719</td>
+<td>fussell@cs.utexas.edu</td>
+<td>http://www.cs.utexas.edu/~fussell/</td>
+
+<td>Professor</td>
+</tr>
+</table>
+
+Foreign Key: facultyID
+
+Links to :
+
+PhoneNumberTable<br>
+ResearchAreaTable<br>
+OfficeTable<br>
+FacultyDegreeJunctionTable<br>

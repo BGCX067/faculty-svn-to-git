@@ -1,0 +1,22 @@
+==Book==
+bookID
+Name
+Date
+
+
+
+= Details =
+
+Primary Key: bookID
+
+
+||bookID||Name||Date||
+||PP1||Principles of Parallel Programming||2008||
+||CM2||Computational Maps in the Visual Cortex||2005||
+||NR3||Numerical Recipes: The Art of Scientific Computing Third Edition||2007||
+||AC4||Automata, Computability and Complexity: Theory and Applications||2007||
+||IA5||Intelligent Autonomous Robotics: A Robot Soccer Case Study, Synthesis Lectures on Artificial Intelligence and Machine Learning||2007||
+||AB6||Autonomous Bidding Agents: Strategies and Lessons from the Trading Agent Competition||2007||
+||NM7||Numerical Mathematics and Computing, Edition 6.||2008||
+||LA8||Linear Algebra: Theory and applications||2009||
+||NA9||Numerical Analysis: Mathematics of Scientific Computing, Third Edition||2002||

@@ -1,0 +1,53 @@
+<faculty_member>
+	
+	<faculty_firstname>Fred</faculty_firstname>
+	<faculty_lastname>Chang</faculty_lastname>
+	
+	<office>
+		<building>ACE</building>
+		<room>6.244</room>
+	</office>
+	
+	<phone_number>5124719597</phone_number>
+	
+	<email>chang@cs.utexas.edu</email>
+	
+	<website>http://cs.utexas.edu/~chang</website>
+	
+	<faculty_type>Research Professor</faculty_type>
+	
+	<research_areas>
+		<research_area>Information assurance and security</research_area>
+	</research_areas>
+	
+	<office_hours>
+	</office_hours>
+	
+	<degrees>
+		<degree>
+			<degree_type>PhD</degree_type>
+			<degree_name>Computer Science</degree_name>
+			<institution>University of Oregon</institution>
+			<degree_date>1981</degree_date>
+		</degree>
+	</degrees>
+	
+	<conferences>
+	</conferences>
+	
+	<journals>
+	</journals>
+	
+	<graduate_students>
+	</graduate_students>
+	
+	<classes>
+	</classes>
+	
+	<awards>
+	</awards>
+	
+	<books>
+	</books>
+	
+</faculty_member>

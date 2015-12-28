@@ -1,0 +1,94 @@
+Primary Key: officeHoursID <br/>
+Foreign Key: FacultyID
+<table border="1">
+
+<tr>
+<td>officeHoursID</td>
+<td>FacultyID</td>
+<td>Day</td>
+<td>StartTime</td>
+<td>EndTime</td>
+</tr>
+
+<tr>
+<td>TA1</td>
+<td>MD1</td>
+<td>Tuesday</td>
+<td>2:30 PM</td>
+<td>3:30 PM</td>
+</tr>
+
+<tr>
+<td>TA2</td>
+<td>ID2</td>
+<td>Tuesday</td>
+<td>11:00 AM</td>
+<td>12:00 PM</td>
+</tr>
+
+<tr>
+<td>WC3</td>
+<td>KG3</td>
+<td>Wednesday</td>
+<td>5:00 PM</td>
+<td>6:00 PM</td>
+</tr>
+
+<tr>
+<td>TA4</td>
+<td>SK4</td>
+<td>Tuesday</td>
+<td>1:00 PM</td>
+<td>2:00 PM</td>
+</tr>
+
+<tr>
+<td>MT5</td>
+<td>AK5</td>
+<td>Monday</td>
+<td>2:00 PM</td>
+<td>3:30 PM</td>
+</tr>
+
+<tr>
+<td>TT6</td>
+<td>SL6</td>
+<td>Tuesday</td>
+<td>5:00 PM</td>
+<td>6:00 PM</td>
+</tr>
+
+<tr>
+<td>WA7</td>
+<td>CL7</td>
+<td>Wednesday</td>
+<td>3:00 PM</td>
+<td>4:00 PM</td>
+</tr>
+
+<tr>
+<td>MR8</td>
+<td>DM8</td>
+<td>Monday</td>
+<td>12:00 PM</td>
+<td>1:00 PM</td>
+</tr>
+
+<tr>
+<td>MC9</td>
+<td>RM9</td>
+<td>Monday</td>
+<td>2:00 PM</td>
+<td>3:00 PM</td>
+</tr>
+
+<tr>
+<td>TT10</td>
+<td>GP10</td>
+<td>Tuesday</td>
+<td>5:00 PM</td>
+<td>6:00 PM</td>
+</tr>
+
+</table>
+ 

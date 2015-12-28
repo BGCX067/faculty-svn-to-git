@@ -1,0 +1,82 @@
+Primary Key: presentationID
+<br>
+Foreign Key: conferenceID
+
+<table border="1">
+<tr>
+<td>presentationID</td>
+<td>conferenceID</td>
+<td>Name</td>
+<td>cDate</td>
+<td>cLocation</td>
+</tr>
+<tr>
+<td>POS1</td>
+<td>EC1</td>
+<td>Peak Objects (Springer) Summing up the Past and Trying to Outline the Future</td>
+<td>July 12 2006</td>
+<td>Nantes, France</td>
+</tr>
+<tr>
+<td>DD02</td>
+<td>AS2</td>
+<td>DDoS Defense by Offense</td>
+<td>September 2006</td>
+<td>Pisa, Italy</td>
+</tr>
+<tr>
+<td>LNA3</td>
+<td>AS3</td>
+<td>A Layered Naming Architecture for the Internet</td>
+<td>September 2004</td>
+<td>Portland, USA</td>
+</tr>
+<tr>
+<td>PVA4</td>
+<td>IL4</td>
+<td>ACL2: A Program Verifier for Applicative Common Lisp</td>
+<td> June 21, 2005</td>
+<td>Stanford, USA</td>
+</tr>
+<tr>
+<td>IAO5</td>
+<td>CH5</td>
+<td>Inductive Assertions and Operational Semantics</td>
+<td>October 24 2003</td>
+<td>L'Aquila, Italy</td>
+</tr>
+<tr>
+<td>MPU6</td>
+<td>IS6</td>
+<td>Memory Prefetching Using Adaptive Stream Detection</td>
+<td>December 12 2006</td>
+<td>Florida, USA</td>
+</tr>
+<tr>
+<td>CGS7</td>
+<td>AC7</td>
+<td>Compiler-Generated Staggered Checkpointing</td>
+<td>October 22 2004</td>
+<td>Houston, USA</td>
+</tr>
+<tr>
+<td>PRC8</td>
+<td>JE8</td>
+<td>Parallel Ray Casting of Visible Human on Distributed Memory Architectures</td>
+<td>May 26-28, 1999</td>
+<td>Vienna, Austria</td>
+</tr>
+<tr>
+<td>PCT9</td>
+<td>IE9</td>
+<td>Progressive Compression and Transmission of Arbitrary Triangular Meshe</td>
+<td>October 24, 1999</td>
+<td>San Francisco, USA</td>
+</tr>
+<tr>
+<td>FOC10</td>
+<td>SO10</td>
+<td>FlightPath?: Obedience vs. Choice in Cooperative Services</td>
+<td>December 2008</td>
+<td>San Diego, USA</td>
+</tr>
